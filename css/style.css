@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #072931;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+div, section, form, span, p, button {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    outline: none;
+    border: 0;
+    background: rgba(60, 128, 69, 0.42);
+    color: rgba(0, 0, 0, 0.75);
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.addList {
+    height: 100vh;
+    background: url("../img/cute-cat.jpg") no-repeat 100% 100%;
+    padding: 150px 0;
+}
+
+.wrap {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.42);
+    padding: 50px 50px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.45);
+}
+
+.list-title {
+    margin-bottom: 20px;
+}
+
+.cats li {
+    padding: 15px 0;
+    text-align: left;
+    border-bottom: 1px solid #3f5a61;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.cats-name {
+    height: 38px;
+    width: 220px;
+    padding-left: 10px;
+}
+
+.add-cat {
+    width: 70px;
+    height: 40px;
+    background: rgba(44, 53, 45, 0.42);
+}
+
+.delete {
+    background: none;
+    border: none;
+}
+
+.checkbox {
+    height: 12px;
+}
+
+.label {
+    position: relative;
+    top: -1px;
+}
